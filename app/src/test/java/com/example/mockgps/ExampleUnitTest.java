@@ -1,4 +1,4 @@
-package com.example.mockgps;
+package com.ddkan.mockgps;
 
 import org.junit.Test;
 

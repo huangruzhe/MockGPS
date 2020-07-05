@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.ddkan.mockgps.MainActivity">
 
 
     <FrameLayout
@@ -42,8 +42,8 @@
             android:layout_margin="@dimen/fab_margin"
             app:elevation="6dp"
             app:pressedTranslationZ="12dp"
-            app:rippleColor="#a9a9a9"
-            app:srcCompat="@android:drawable/ic_menu_myplaces" />
+            app:rippleColor="#d3d3d3"
+            app:srcCompat="@drawable/location" />
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/fabStop"

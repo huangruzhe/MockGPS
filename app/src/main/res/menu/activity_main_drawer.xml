@@ -23,16 +23,18 @@
         <item
             android:id="@+id/nav_bug_report"
             android:icon="@drawable/ic_bug_report_18pt_3x"
-            android:title="问题反馈" />
+            android:title="问题反馈"
+            android:visible="false"/>
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Communicate" android:visible="false">
         <menu>
 
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="与我联系" />
+                android:title="与我联系"
+                android:visibility="gone"/>
         </menu>
     </item>
 

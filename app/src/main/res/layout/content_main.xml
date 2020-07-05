@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".MainActivity"
+    tools:context="com.ddkan.mockgps.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
 
@@ -79,21 +79,24 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="正常" />
+                android:text="正常"
+                android:visibility="gone"/>
 
             <RadioButton
                 android:id="@+id/trackloc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="跟踪" />
+                android:text="跟踪"
+                android:visibility="gone"/>
 
             <RadioButton
                 android:id="@+id/compassloc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="罗盘" />
+                android:text="罗盘"
+                android:visibility="gone"/>
         </RadioGroup>
 
 
@@ -113,14 +116,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:checked="true"
-                android:text="普通图" />
+                android:text="普通图"
+                android:visibility="gone"/>
 
             <RadioButton
                 android:id="@+id/statellite"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="卫星图" />
+                android:text="卫星图"
+                android:visibility="gone"/>
         </RadioGroup>
 
         <CheckBox
@@ -134,7 +139,8 @@
             android:layout_weight="1"
             android:checked="false"
             android:onClick="setTraffic"
-            android:text="路况图" />
+            android:text="路况图"
+            android:visibility="gone"/>
 
         <CheckBox
             android:id="@+id/baiduHeatMap"
@@ -147,7 +153,8 @@
             android:layout_weight="1"
             android:checked="false"
             android:onClick="setBaiduHeatMap"
-            android:text="热力图" />
+            android:text="热力图"
+            android:visibility="gone"/>
 
 
     </RelativeLayout>

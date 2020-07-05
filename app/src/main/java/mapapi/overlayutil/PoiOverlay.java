@@ -11,7 +11,7 @@ import com.baidu.mapapi.map.OverlayOptions;
 import com.baidu.mapapi.map.Polyline;
 import com.baidu.mapapi.search.poi.PoiResult;
 import com.baidu.mapapi.search.sug.SuggestionResult;
-import com.example.mockgps.R;
+import com.ddkan.mockgps.R;
 
 import java.util.ArrayList;
 import java.util.List;
