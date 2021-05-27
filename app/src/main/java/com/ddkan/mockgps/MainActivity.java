@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
 
     //位置欺骗相关
     //  latLngInfo  经度&纬度
-    public static String latLngInfo = "104.06121778639009&30.544111926165282";
+    public static String latLngInfo = "121.46949728027344&31.282118038971937";
     private boolean isMockLocOpen = false;
     private MockGpsService mockGpsService;
     private MockServiceReceiver mockServiceReceiver = null;
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity
     private double mCurrentLat = 0.0;
     private double mCurrentLon = 0.0;
     private float mCurrentAccracy;
-    private String mCurrentCity = "成都市";
+    private String mCurrentCity = "上海市";
     private String mCurrentAddr;
     /**
      * 当前地点击点
@@ -1360,7 +1360,7 @@ public class MainActivity extends AppCompatActivity
                 return;
             }
             mCurrentAddr = location.getAddrStr();
-            mCurrentCity = location.getCity();
+            mCurrentCity = location.getCity()!=null?location.getCity():"上海市";
             mCurrentLat = location.getLatitude();
             mCurrentLon = location.getLongitude();
             mCurrentAccracy = location.getRadius();

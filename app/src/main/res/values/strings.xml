@@ -4,6 +4,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Mock Location</string>
     <string name="nav_header_subtitle">hilavergil@gmail.com</string>
+    <string name="current_version">版本号1.0.0</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="startlocation">STARTLOCATION</string>
